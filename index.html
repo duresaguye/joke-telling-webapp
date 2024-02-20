@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joke telling bot</title>
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link href="https://fonts.cdnfonts.com/css/press-start-2p" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+        
+        <div class="joke-box">
+            <header>Random Jokes generator</header>
+            <div class="box-body">
+                <div class="instruction-box" id="instruction">
+                    <h1>Instruction</h1>
+                    <div class="instruction-text">
+                        <p><span style="color: yellow;">1)</span>Get jokes by pressing the button or "j"</p>
+                        <p><span style="color: yellow">2)</span>Get answer by pressing the button or "c"</p>
+                    </div>
+                </div>
+                <div class="jokes-container" id="jokesContainer" style="display: none;">
+                    <p>Joke -  <span style="color: red; line-height: 30px;" id="main-text">Loading...</span></p>
+                    <p>Punchline - <span style="color: yellow; line-height: 30px;" id="answer-text">Loading...</span></p>
+                </div>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="generate">Tell me a joke</button>
+            <button id="show">Get punchline</button>
+        </div>
+    </div>
+</body>
+<script src="asset/css/index.js"></script>
+</html>
