@@ -20,8 +20,7 @@ Installation
 
     Clone the repository or download the project files:
 
-git clone https://github.com/your-username/joke-telling-bot.git
-
+git clone https://github.com/duresaguye/joke-telling-webapp
 Navigate to the project directory and ensure the folder structure is intact:
 
     /asset
@@ -42,11 +41,11 @@ Usage
 
 Project Structure
 
-/asset
-  /css
-    style.css   # Stylesheet for the application
-    index.js    # JavaScript logic for joke generation and interaction
-index.html      # Main HTML file
+     /asset
+        /css
+          style.css   # Stylesheet for the application
+        index.js    # JavaScript logic for joke generation and interaction
+    index.html      # Main HTML file
 
 Keyboard Shortcuts
 
